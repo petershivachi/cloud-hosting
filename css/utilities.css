@@ -43,7 +43,7 @@
     display: inline-block;
     border: none;
     cursor: pointer;
-    background: var(--succes-color);
+    background: var(--primary-color);
     color: #fff;
     padding: 10px 30px;
     border-radius: 5px;
@@ -63,7 +63,49 @@
 }
 
 .text-secondary {
-    color: #04e371;
+    color: var(--primary-color);
+}
+
+/*Backgroubds & colored buttons*/
+.bg-primary, .btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light, .btn-lightt {
+    background-color: var(--light-color);
+    color: #333333;
+}
+
+/*Text Sizes*/
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
 }
 
 /*Margin*/
