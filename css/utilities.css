@@ -1,0 +1,48 @@
+/*Utilities*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background: var(--succes-color);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btn-outline{
+    background-color: transparent;
+    border: 1px #fff solid;
+}
